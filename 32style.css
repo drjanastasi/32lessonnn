@@ -1,0 +1,29 @@
+.spisok{
+    font-size: large;
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+    margin-top: 2%;
+    width: 50%
+}
+li {
+    display: flex;
+    flex-direction: row;
+    margin-right: 50px;
+    color: blue;
+    border: 2px dashed rgb(6, 84, 230);
+} 
+body{
+    background-color: rgba(0, 255, 255, 0.452);
+}
+input{
+    width: 200px;
+    height: 30px;
+    margin-right: 30px;
+    background-color: antiquewhite;
+}
+button{
+    width: 60px;
+    height: 30px;
+    background-color: aquamarine;
+}
